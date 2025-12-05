@@ -1,22 +1,5 @@
-```mermaid
-graph TD
-    A[Input: pitch3.wav] -->|Stream 1| B(Audio Signal Processing)
-    A -->|Stream 2| C(Speech Recognition Engine)
-    
-    B -->|Librosa| D[Feature Extraction]
-    D -->|Calculate| D1[Energy / 'Josh' Meter]
-    D -->|Calculate| D2[Silence / Nervousness Index]
-    
-    C -->|Google Speech API| E[Hinglish Transcript]
-    
-    D1 & D2 & E --> F{Context Aggregator}
-    
-    F -->|Prompt Engineering| G[LLM Reasoning Core]
-    G -->|Persona: Ashneer| H[Unit Economics Check]
-    G -->|Persona: Namita| I[Clarity Check]
-    G -->|Persona: Aman| J[Branding Check]
-    
-    H & I & J --> K[Final Verdict: INVEST/REJECT]
+![Uploading licensed-image.jpeg…]()
+
 
 
 
