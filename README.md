@@ -45,13 +45,13 @@ pip install -r requirements.txt
 
 ⚙️ Configuration
 
-1. Open SharkTank_Final_Update.py.
+1. Open Main.py.
 
 2. The code is pre-configured to look for an audio file named pitch3.wav.
 
 -> Ensure your audio recording is in the same folder as the script.
 
--> Rename your file to pitch3.wav.
+-> You can Rename your file to pitch2.wav or pitch1.wav as required.
 
 3. API Key: The script is currently set up with a Google Gemini API key. If you wish to use your own, replace the value in os.environ["GOOGLE_API_KEY"].
 
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 3. Run the script:
 
-python SharkTank_Final_Update.py
+python Main.py
 
 
 📊 Sample Output
