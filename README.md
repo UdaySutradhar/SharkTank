@@ -4,64 +4,64 @@ A multimodal AI tool that analyzes startup pitches using Audio Signal Processing
 
 🚀 Features
 
-Audio Signal Processing:
+1. Audio Signal Processing:
 
-Calculates Energy Levels (Josh Meter).
+-> Calculates Energy Levels (Josh Meter).
 
-Detects Silence & Hesitation (Nervousness Index).
+-> Detects Silence & Hesitation (Nervousness Index).
 
-Hinglish Transcription: Uses Google's Speech Recognition to transcribe mixed Hindi-English pitches.
+2. Hinglish Transcription: Uses Google's Speech Recognition to transcribe mixed Hindi-English pitches.
 
-AI Shark Panel (Gemini 2.5 Pro):
+3. AI Shark Panel (Gemini 2.5 Pro):
 
-Ashneer Grover: Roasts low margins and nervousness ("Doglapan").
+-> Ashneer Grover: Roasts low margins and nervousness ("Doglapan").
 
-Namita Thapar: Opts out if the pitch is confusing ("Expertise nahi hai").
+-> Namita Thapar: Opts out if the pitch is confusing ("Expertise nahi hai").
 
-Aman Gupta: Focuses on energy and branding.
+-> Aman Gupta: Focuses on energy and branding.
 
-Final Verdict: automatically generates an INVEST or NOT INVEST decision.
+4. Final Verdict: automatically generates an INVEST or NOT INVEST decision.
 
 🛠️ Prerequisites
 
 Before running the project, ensure you have the following installed:
 
-Python 3.8+
+1. Python 3.8+
 
-FFmpeg (Required for audio processing):
+2. FFmpeg (Required for audio processing):
 
-Mac: brew install ffmpeg
+-> Mac: brew install ffmpeg
 
-Windows: Download FFmpeg and add it to your System PATH.
+-> Windows: Download FFmpeg and add it to your System PATH.
 
 📦 Installation
 
-Clone or Download this repository.
+1. Clone or Download this repository.
 
-Install the required Python libraries:
+2. Install the required Python libraries:
 
 pip install -r requirements.txt
 
 
 ⚙️ Configuration
 
-Open SharkTank_Final_Update.py.
+1. Open SharkTank_Final_Update.py.
 
-The code is pre-configured to look for an audio file named pitch3.wav.
+2. The code is pre-configured to look for an audio file named pitch3.wav.
 
-Ensure your audio recording is in the same folder as the script.
+-> Ensure your audio recording is in the same folder as the script.
 
-Rename your file to pitch3.wav.
+-> Rename your file to pitch3.wav.
 
-API Key: The script is currently set up with a Google Gemini API key. If you wish to use your own, replace the value in os.environ["GOOGLE_API_KEY"].
+3. API Key: The script is currently set up with a Google Gemini API key. If you wish to use your own, replace the value in os.environ["GOOGLE_API_KEY"].
 
 🏃‍♂️ How to Run
 
-Open your terminal or command prompt.
+1. Open your terminal or command prompt.
 
-Navigate to the project folder.
+2. Navigate to the project folder.
 
-Run the script:
+3. Run the script:
 
 python SharkTank_Final_Update.py
 
