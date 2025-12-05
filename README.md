@@ -1,9 +1,3 @@
-
-![Uploading licensed-image.jpeg…]()
-
-
-
-
 🦈 Shark Tank India Pitch Analyzer
 
 A multimodal AI tool that analyzes startup pitches using Audio Signal Processing and Large Language Models (LLMs). The system evaluates vocal delivery (energy, confidence) and business content to simulate feedback from specific Shark Tank India judges.
