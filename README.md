@@ -85,3 +85,5 @@ python Main.py
 **FINAL RECOMMENDATION:** INVEST
 ----------------------------------------
 ========================================
+
+video demo: https://drive.google.com/file/d/1AhmbMUl8xgNSEurhlLjpxANXRvakVsDe/view?usp=sharing
